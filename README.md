@@ -44,7 +44,7 @@ gulp.src('src/js/pages/*.js')
 
 # API Reference
 
-```
+```js
 const bundler = require('bundle-through')
 ```
 
