@@ -1,4 +1,4 @@
-# bundle-through v1.0.3
+# bundle-through v1.0.3 [![Circle CI](https://circleci.com/gh/kt3k/bundle-through.svg?style=svg)](https://circleci.com/gh/kt3k/bundle-through) [![codecov](https://codecov.io/gh/kt3k/bundle-through/branch/master/graph/badge.svg)](https://codecov.io/gh/kt3k/bundle-through)
 
 > Bundle CommonJS scripts through vinyl stream, using browserify.
 
