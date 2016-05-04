@@ -9,9 +9,10 @@ module.exports = bundleThrough
 
 /**
  * Returns a transform stream which bundles files in the given stream.
- * @param {object} [options] The browserify options
+ *
+ * @param {object} [options] The options. This options are directly passed to the `browserify` constructor. You can pass any browserify options such as `transform` `plugin` `debug` etc.
  * @param {boolean} [options.buffer] `true` iff you want output file to have buffer type contents. Default is `true`. If set `false`, the output file has file contents as a stream.
- * @param {boolean} [options.sourcemaps] `true` iff you want to output sourcemaps.
+ * @param {boolean} [options.sourcemaps] `true` iff you want to output sourcemaps. You need to *write* it using `gulp-sourcemaps`.
  * @return {Transform<Vinyl, Vinyl>}
  */
 function bundleThrough(options) {

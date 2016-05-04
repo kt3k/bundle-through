@@ -50,8 +50,8 @@ const bundler = require('bundle-through')
 
 ## bundler(options)
 
-- @param {boolean} sourcemaps
-- @param {boolean} buffer
+- @param {boolean} buffer `true` iff you want output file to have buffer type contents. Default is `true`. If set `false`, the output file has file contents as a stream.
+- @param {boolean} sourcemaps `true` iff you want to output sourcemaps. You need to *write* it using `gulp-sourcemaps`.
 - These options are directly passed to `browserify`. See [the documents](https://github.com/substack/node-browserify#browserifyfiles--opts) for details.
 - @return {Transform<Vinyl, Vinyl>}
 
