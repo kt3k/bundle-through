@@ -1,6 +1,6 @@
 {
   "name": "bundle-through",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Bundle CommonJS scripts through a vinyl stream, using browserify.",
   "main": "index.js",
   "scripts": {
