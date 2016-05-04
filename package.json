@@ -1,0 +1,41 @@
+{
+  "name": "bundle-through",
+  "version": "0.1.0",
+  "description": "Bundle CommonJS scripts through a vinyl stream, using browserify.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/test.js",
+    "cov": "nyc --reporter=lcov npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kt3k/bundle-through.git"
+  },
+  "keywords": [
+    "browserify",
+    "gulpfriendly",
+    "vinyl",
+    "stream",
+    "through"
+  ],
+  "author": "Yoshiya Hinosawa <stibium121@gmail.com> (https://twitter.com/kt3k)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kt3k/bundle-through/issues"
+  },
+  "homepage": "https://github.com/kt3k/bundle-through#readme",
+  "dependencies": {
+    "browserify": "^13.0.0",
+    "duplexify": "^3.4.3",
+    "gulp-sourcemap": "^1.0.1",
+    "object-assign": "^4.1.0"
+  },
+  "devDependencies": {
+    "concat-stream": "^1.5.1",
+    "gulp-uglify": "^1.5.3",
+    "nyc": "^6.4.2",
+    "tape": "^4.5.1",
+    "through2": "^2.0.1",
+    "vinyl-fs": "^2.4.3"
+  }
+}
