@@ -1,4 +1,4 @@
-# bundle-through v0.1.0
+# bundle-through v1.0.0
 
 > Bundle CommonJS scripts through vinyl stream, using browserify.
 
