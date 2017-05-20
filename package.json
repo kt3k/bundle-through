@@ -34,7 +34,7 @@
   "devDependencies": {
     "codecov": "^2.0.1",
     "concat-stream": "^1.5.1",
-    "gulp-uglify": "^2.0.0",
+    "gulp-uglify": "^3.0.0",
     "nyc": "^10.0.0",
     "tape": "^4.5.1",
     "through2": "^2.0.1",
