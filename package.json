@@ -28,7 +28,7 @@
   "dependencies": {
     "browserify": "^14.1.0",
     "duplexify": "^3.4.3",
-    "gulp-sourcemaps": "^2.0.0",
+    "gulp-sourcemaps": "^2.1.0",
     "object-assign": "^4.1.0"
   },
   "devDependencies": {
